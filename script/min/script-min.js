@@ -1,0 +1,1 @@
+$(document).ready(function(){$("a[href^='#']").on("click",function(t){var e=this.getAttribute("href");"#"==e?$("html, body").animate({scrollTop:0},1e3,"easeInOutCubic"):$("html, body").animate({scrollTop:$(e).offset().top-50},1e3,"easeInOutCubic")})});
